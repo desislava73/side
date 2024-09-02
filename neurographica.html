@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нейрографика - Видео Уроци</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a8e8c;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #36494e;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #4a8e8c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            margin: 15px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .contact-form, .subscribe-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea, .subscribe-form input {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button, .subscribe-form button {
+            padding: 10px;
+            background-color: #4a8e8c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Нейрографика - Видео Уроци</h1>
+</header>
+
+<nav>
+    <a href="#home">Начало</a>
+    <a href="#lessons">Видео Уроци</a>
+    <a href="#about">За Нас</a>
+    <a href="#gallery">Галерия</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<section id="home">
+    <h2>Добре дошли в света на Нейрографиката</h2>
+    <p>Нейрографиката е творчески метод, който ви помага да трансформирате мислите и емоциите си в изкуство. Чрез нашите видео уроци ще научите как да използвате този уникален метод за подобряване на личния си живот и творческите си умения.</p>
+</section>
+
+<section id="lessons">
+    <h2>Видео Уроци</h2>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/видео1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/видео2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/видео3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="about">
+    <h2>За Нас</h2>
+    <p>Ние сме екип от сертифицирани инструктори по Нейрографика, които са посветени на разпространението на този метод. Нашата мисия е да ви помогнем да разкриете творческия си потенциал и да подобрите качеството на живота си чрез Нейрографика.</p>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Галерия</h2>
+    <img src="example1.jpg" alt="Пример 1">
+    <img src="example2.jpg" alt="Пример 2">
+    <img src="example3.jpg" alt="Пример 3">
+</section>
+
+<section id="contact">
+    <h2>Контакти</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Вашето име" required>
+        <input type="email" name="email" placeholder="Вашият имейл" required>
+        <textarea name="message" placeholder="Вашето съобщение" required></textarea>
+        <button type="submit">Изпрати</button>
+    </form>
+</section>
+
+<section id="subscribe">
+    <h2>Абонирайте се за новини</h2>
+    <form class="subscribe-form">
+        <input type="email" name="email" placeholder="Вашият имейл" required>
+        <button type="submit">Абонирай се</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 Нейрографика. Всички права запазени.</p>
+</footer>
+
+</body>
+</html>
